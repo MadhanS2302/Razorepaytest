@@ -13,7 +13,7 @@ document.getElementById('pay-button').onclick = async function (e) {
         const order = await response.json();
 
         const options = {
-            key: 'PASTE_YOUR_KEY_ID_HERE', // Your Test Key ID
+            key: 'rzp_test_R9s2JfWDP6FAjl', // Your Test Key ID
             amount: order.amount,
             currency: order.currency,
             name: 'My Awesome Store',
