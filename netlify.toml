@@ -1,0 +1,7 @@
+[build]
+  # This tells Netlify your website files are in the "public" folder.
+  publish = "public"
+
+[functions]
+  # This tells Netlify your backend function files are here.
+  directory = "netlify/functions"

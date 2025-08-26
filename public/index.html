@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razorpay Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="product-card">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/022/917/180/small/being-normal-is-boring-motivational-typography-quote-design-for-t-shirt-mug-poster-or-other-merchandise-free-png.png" alt="T-Shirt">
+        <h3>Awesome T-Shirt</h3>
+        <h1>Madhan's Nest  </h1>
+        <p class="price">₹500</p>
+        <button id="pay-button">Pay Securely</button>
+        <p id="payment-status"></p>
+    </div>
+
+    <!-- Razorpay's checkout script -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <!-- Your custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
