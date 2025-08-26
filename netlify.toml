@@ -1,7 +1,7 @@
 [build]
-  # This tells Netlify your website files are in the "public" folder.
   publish = "public"
 
+# This tells Netlify to build your function and include its dependencies
 [functions]
-  # This tells Netlify your backend function files are here.
   directory = "netlify/functions"
+  node_bundler = "esbuild"
